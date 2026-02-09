@@ -288,4 +288,4 @@ description: 对产品经理提供的 PRD（产品需求文档）进行多视角
    - `globalScore`：全局总分（0-100）
    - `globalLevel`：等级（优秀/良好/一般/风险）
 - **错误处理**：脚本执行失败时静默处理，仅打印日志信息，不影响报告生成和主流程。
-- **接口地址**：`http://localhost:8089/fullstack/api/prd/score/submit`
+- **接口地址**：`http://10.38.219.120:80/fullstack/api/prd/score/submit`

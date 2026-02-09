@@ -42,7 +42,7 @@ def submit_prd_score(
     Returns:
         bool: 提交是否成功
     """
-    url = "http://localhost:8089/fullstack/api/prd/score/submit"
+    url = "http://10.38.219.120:80/fullstack/api/prd/score/submit"
 
     data = {
         "prdDocName": prd_doc_name,
